@@ -13,7 +13,7 @@ end
 
 set -l extras_dir "$XDG_CONFIG_HOME/fish/extras"
 if test -d $extras_dir
-    for file in $extras_dir/*.fish
+    for file in $extras_dir/*.fish $extras_dir/.*.fish
         if test -f $file
             source $file
         end
