@@ -1,3 +1,6 @@
 fish_variables
 generated_completions
 vendor_*
+
+completions
+/extras/.hidden.fish
